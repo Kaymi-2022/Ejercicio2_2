@@ -16,9 +16,9 @@
   <widget class="QGroupBox" name="groupBox_2">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>330</y>
-     <width>631</width>
+     <x>10</x>
+     <y>390</y>
+     <width>971</width>
      <height>221</height>
     </rect>
    </property>
@@ -63,7 +63,7 @@ font: 87 10pt &quot;Arial Black&quot;;
      <rect>
       <x>180</x>
       <y>40</y>
-      <width>421</width>
+      <width>671</width>
       <height>31</height>
      </rect>
     </property>
@@ -111,7 +111,7 @@ font: 87 10pt &quot;Arial Black&quot;;
      <rect>
       <x>180</x>
       <y>80</y>
-      <width>141</width>
+      <width>101</width>
       <height>31</height>
      </rect>
     </property>
@@ -131,13 +131,16 @@ font: 87 12pt &quot;Arial Black&quot;;</string>
     <property name="text">
      <string/>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
    </widget>
    <widget class="QLabel" name="lb_promedio">
     <property name="geometry">
      <rect>
       <x>180</x>
       <y>120</y>
-      <width>141</width>
+      <width>101</width>
       <height>31</height>
      </rect>
     </property>
@@ -238,10 +241,10 @@ font: 87 10pt &quot;Arial Black&quot;;
   <widget class="QGroupBox" name="groupBox">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>50</y>
-     <width>401</width>
-     <height>261</height>
+     <x>580</x>
+     <y>40</y>
+     <width>391</width>
+     <height>231</height>
     </rect>
    </property>
    <property name="font">
@@ -262,7 +265,7 @@ font: 87 10pt &quot;Arial Black&quot;;
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>140</y>
+      <y>110</y>
       <width>121</width>
       <height>16</height>
      </rect>
@@ -288,7 +291,7 @@ font: 87 10pt &quot;Arial Black&quot;;
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>180</y>
+      <y>150</y>
       <width>101</width>
       <height>16</height>
      </rect>
@@ -305,7 +308,7 @@ font: 87 10pt &quot;Arial Black&quot;;
     <property name="geometry">
      <rect>
       <x>190</x>
-      <y>90</y>
+      <y>60</y>
       <width>161</width>
       <height>31</height>
      </rect>
@@ -329,7 +332,7 @@ font: 87 10pt &quot;Arial Black&quot;;
     <property name="geometry">
      <rect>
       <x>190</x>
-      <y>130</y>
+      <y>100</y>
       <width>161</width>
       <height>31</height>
      </rect>
@@ -353,7 +356,7 @@ font: 87 10pt &quot;Arial Black&quot;;
     <property name="geometry">
      <rect>
       <x>190</x>
-      <y>170</y>
+      <y>140</y>
       <width>161</width>
       <height>31</height>
      </rect>
@@ -377,7 +380,7 @@ font: 87 10pt &quot;Arial Black&quot;;
     <property name="geometry">
      <rect>
       <x>220</x>
-      <y>60</y>
+      <y>30</y>
       <width>91</width>
       <height>16</height>
      </rect>
@@ -399,7 +402,7 @@ font: 87 10pt &quot;Arial Black&quot;;
     <property name="geometry">
      <rect>
       <x>190</x>
-      <y>210</y>
+      <y>180</y>
       <width>161</width>
       <height>31</height>
      </rect>
@@ -423,7 +426,7 @@ font: 87 10pt &quot;Arial Black&quot;;
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>220</y>
+      <y>190</y>
       <width>101</width>
       <height>16</height>
      </rect>
@@ -440,7 +443,7 @@ font: 87 10pt &quot;Arial Black&quot;;
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>95</y>
+      <y>65</y>
       <width>131</width>
       <height>21</height>
      </rect>
@@ -466,9 +469,9 @@ font: 87 10pt &quot;Arial Black&quot;;
   <widget class="QPushButton" name="b_calcular">
    <property name="geometry">
     <rect>
-     <x>165</x>
-     <y>610</y>
-     <width>218</width>
+     <x>7</x>
+     <y>320</y>
+     <width>951</width>
      <height>28</height>
     </rect>
    </property>
@@ -482,18 +485,18 @@ border:1px sold white;
 }
 
 QPushButton:hover{
-background-color:white;
+background-color:black;
 }</string>
    </property>
    <property name="text">
-    <string>CALCULAR</string>
+    <string>INGRESAR DATOS</string>
    </property>
   </widget>
   <widget class="QPushButton" name="b_salir">
    <property name="geometry">
     <rect>
-     <x>390</x>
-     <y>610</y>
+     <x>730</x>
+     <y>640</y>
      <width>219</width>
      <height>28</height>
     </rect>
@@ -508,12 +511,147 @@ border:1px sold white;
 }
 
 QPushButton:hover{
-background-color:white;
+background-color:black;
 }</string>
    </property>
    <property name="text">
     <string>SALIR</string>
    </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>561</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial Black</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 170, 255);</string>
+   </property>
+   <property name="title">
+    <string>INGRESO DE DATOS DEL ESTUDIANTE</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 10pt &quot;Arial Black&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>CODIGO:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 10pt &quot;Arial Black&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>APELLIDOS:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>140</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 10pt &quot;Arial Black&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>NOMBRES:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_codigo">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>50</y>
+      <width>361</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_apellidos">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>90</y>
+      <width>361</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_nombres">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>130</y>
+      <width>361</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources/>
